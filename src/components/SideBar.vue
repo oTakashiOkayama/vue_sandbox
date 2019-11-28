@@ -46,5 +46,13 @@ export default {
       this.$router.push(page)
     },
   },
+
+  watch: {
+    drawer: function(val) {
+      // 非同期通信など
+    },
+  },
 }
 </script>
+
+<style></style>
